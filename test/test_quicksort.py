@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from random import shuffle
-from src.quicksort import quicksort
+from src.QuickSort import quicksort
 
 
 def test_quicksort():
-    
+
     arr = list(range(20))
     shuffle(arr)
     assert quicksort(arr) == list(range(20))
